@@ -6,213 +6,227 @@ Source Code of iOS tutorials at ioscreator.com
 ===========================================================================================================
 CODE EXAMPLES REPOSITORY
 
-  See http://ioscreator.com for a detailed description 
+  See https://ioscreator.com for a detailed description 
 
-  This README last updated: 04-Jul-2016
+  This README last updated: 04-18-2020
 ===========================================================================================================
 
 INDEX
-
-ShakeGestureDemo 		| http://ioscreator.com/tutorials/detect-shake-gesture-on-a-device/  
-ProgressViewDemo 		| http://ioscreator.com/tutorials/display-a-progress-bar/  
-ActivityIndicatorDemo 		| http://ioscreator.com/tutorials/display-an-activity-indicator/  
-RotatingImageViewDemo 		| http://ioscreator.com/tutorials/rotate-an-imageview/  
-CustomizingSelectionDemo 	| http://ioscreator.com/tutorials/customizing-selection-on-a-tableview/  
-AccelerometerDemo 		| http://ioscreator.com/tutorials/read-values-of-the-accelerometer/  
-AnimatingViewDemo 		| http://ioscreator.com/tutorials/animating-views/  
-HeaderFooterDemo 		| http://ioscreator.com/tutorials/customizing-headers-and-footers-of-a-tableview/  
-DraggingViewsDemo 		| http://ioscreator.com/tutorials/dragging-views-with-gestures/  
-CustomizingTableviewCell 	| http://ioscreator.com/tutorials/customize-tableviewcells-with-storyboards/  
-KeyboardDemo 			| http://ioscreator.com/tutorials/move-view-when-keyboard-appears/  
-playAudioDemo 			| http://ioscreator.com/tutorials/play-mp3-file-in-ios-with-avaudioplayer/  
-PullToRefreshDemo 		| http://ioscreator.com/tutorials/add-pull-to-refresh-to-a-table-view-in-ios-6/  
-CoreDataDemo 			| http://ioscreator.com/tutorials/introduction-to-core-data/  
-ConstraintsCodeDemo 		| http://ioscreator.com/tutorials/auto-layout-in-ios-6-adding-constraints-through-code/  
-UIStepperDemo 			| http://ioscreator.com/tutorials/change-values-with-uistepper/  
-CGShapedDemo 			| http://ioscreator.com/tutorials/drawing-shapes-with-core-graphics/  
-ActionSheetDemo 		| http://ioscreator.com/tutorials/simple-menu-with-uiactionsheet/  
-AddressBookDemo 		| http://ioscreator.com/tutorials/retrieving-contacts-from-the-address-book/  
-TwitterDemo 			| http://ioscreator.com/tutorials/ios-6-tweet-sheet-use-twitter-in-app/  
-PropertyListDemo 		| http://ioscreator.com/tutorials/load-data-from-property-list/  
-AttributedStringsDemo 		| http://ioscreator.com/tutorials/format-text-in-ios6-attributed-strings/  
-PickerDemo 			| http://ioscreator.com/tutorials/choose-values-with-pickerview/  
-SegmentedControllerDemo 	| http://ioscreator.com/tutorials/create-a-uisegmentedcontrol/  
-NavigationControllerDemo 	| http://ioscreator.com/tutorials/navigate-with-uinavigationcontroller/  
-iOSSwipeTutorial 		| http://ioscreator.com/tutorials/detecting-swipe-gestures/  
-DrawingGradients 		| http://ioscreator.com/tutorials/draw-gradients-with-core-graphics/  
-SimpleCalculator 		| http://ioscreator.com/tutorials/simple-calculator/  
-DrawingCirclesWithUITouch 	| http://ioscreator.com/tutorials/drawing-circles-with-uitouch/  
-UISliderTutorial 		| http://ioscreator.com/tutorials/change-values-with-uislider/  
-ScrollViewWithPaging 		| http://ioscreator.com/tutorials/scrollview-with-paging/  
-ViewWebsite 			| http://ioscreator.com/tutorials/loading-a-website-with-uiwebview/  
-FileManagementDemo 		| http://ioscreator.com/tutorials/ios-file-management/  
-indexedTableDemo 		| http://ioscreator.com/tutorials/create-indexed-tableview/  
-PlacemarkDemo 			| http://ioscreator.com/tutorials/display-placemarks-with-mapkit/  
-JSONDemo 			| http://ioscreator.com/tutorials/parsing-json-data/  
-SocialSharingDemo 		| http://ioscreator.com/tutorials/social-sharing-in-ios-6-the-activity-viewcontroller/  
-EmailDemo 			| http://ioscreator.com/tutorials/send-email-from-an-app/  
-CameraApp 			| http://ioscreator.com/tutorials/take-photo-with-the-camera/  
-ScalingViewDemo 		| http://ioscreator.com/tutorials/scaling-views/  
-ImageAspectRatioDemo 		| http://ioscreator.com/tutorials/auto-layout-in-ios-6-keep-aspect-ratio-of-image/  
-MessageDemo 			| http://ioscreator.com/tutorials/sending-text-messages-from-an-app/  
-CopyTextDemo 			| http://ioscreator.com/tutorials/copy-text-with-uipastebin/  
-FaceBookPostDemo 		| http://ioscreator.com/tutorials/social-sharing-in-ios-6-post-to-facebook/  
-RecordVideoDemo 		| http://ioscreator.com/tutorials/play-and-record-videos-in-ios/  
-CenteringViewsDemo 		| http://ioscreator.com/tutorials/auto-layout-in-ios-6-centering-views/  
-SplitViewControllerDemo 	| http://ioscreator.com/tutorials/create-a-splitviewcontroller-on-the-ipad  
-ActivityControllerStatusBarDemo	| http://ioscreator.com/tutorials/display-an-activity-indicator-in-the-status-bar  
-PopoverDemo			| http://ioscreator.com/tutorials/display-popovers-on-the-ipad  
-ShadowButtonDemo		| http://ioscreator.com/tutorials/add-shadow-to-a-button  
-ChangeVolumeDemo		| http://ioscreator.com/tutorials/changing-volume-output  
-CustomFontDemo			| http://ioscreator.com/tutorials/using-custom-fonts  
-AddItemTableViewDemo		| http://ioscreator.com/tutorials/add-rows-to-tableview  
-PinchImageDemo			| http://ioscreator.com/tutorials/scale-image-with-uipinchgesturerecognizer  
-DeleteItemTableViewDemo		| http://ioscreator.com/tutorials/delete-rows-from-tableview  
-OpenPDFDocument			| http://ioscreator.com/tutorials/open-pdf-documents-in-ios  
-SearchTableViewDemo		| http://ioscreator.com/tutorials/add-searchbar-to-tableview  
-CategoryDemo			| http://ioscreator.com/tutorials/objective-c-add-a-category  
-ChangeScreensDemo		| http://ioscreator.com/tutorials/changing-screens-with-uipagecontrol  
-UserDefaultsDemo		| http://ioscreator.com/tutorials/use-settings-with-nsuserdefaults  
-ReorderingRowsDemo		| http://ioscreator.com/tutorials/reordering-rows-from-tableview  
-iOS7TintColorTutorial		| http://ioscreator.com/tutorials/ios-7-views-setting-tint-color  
-iOS7UIKitDynamicsTutorial	| http://ioscreator.com/tutorials/introducing-uikit-dynamics-in-ios-7
-iOS7ActionSheetTutorial		| http://ioscreator.com/tutorials/ios-7-views-uiactionsheet  
-AddBackgroundTutorial		| http://ioscreator.com/tutorials/add-background-image-in-sprite-kit  
-iOS7CollectionViewTutorial	| http://ioscreator.com/tutorials/introduction-collectionviews-ios7  
-iOS7AutoLayoutTutorial		| http://ioscreator.com/tutorials/using-auto-layout-xcode-5  
-SpriteActionsTutorial   	| http://ioscreator.com/tutorials/moving-sprites-with-actions-in-sprite-kit  
-iOS7ActivityControllerTutorial  | http://ioscreator.com/tutorials/ios-7-views-activity-indicator  
-SpriteAnimationTutorial		| http://ioscreator.com/tutorials/animating-sprites-with-sprite-kit  
-iOS7ProgressViewTutorial	| http://ioscreator.com/tutorials/ios-7-views-progress-view  
-iOS7ActivityViewControllerTutorial | http://ioscreator.com/tutorials/ios-7-views-activity-viewcontroller  
-iOS7CollisionDetectionTutorial  | http://ioscreator.com/tutorials/collision-detection-with-uikit-dynamics-in-ios-7  
-iOS7DynamicTypeTutorial		| http://ioscreator.com/tutorials/using-dynamic-types-in-ios-7  
-ScenesSpriteKitTutorial		| http://ioscreator.com/tutorials/working-with-scenes-in-sprite-kit  
-iOS7AlertViewTutorial		| http://ioscreator.com/tutorials/ios-7-views-alert-view  
-iOS7BackgroundFetchTutorial	| http://ioscreator.com/tutorials/using-background-fetch-in-ios-7  
-iOS7ImageViewTutorial		| http://ioscreator.com/tutorials/ios-7-views-image-view  
-iOS7CurrentLocationTutorial	| http://ioscreator.com/tutorials/get-current-location-with-core-location  
-iOS7AddressBookTutorial		| http://ioscreator.com/tutorials/add-contacts-to-the-address-book-in-ios7  
-iOS7LongPressGestureTutorial	| http://ioscreator.com/tutorials/detecting-long-press-gestures-in-ios-7  
-iOS7ShowRegionMapKitTutorial	| http://ioscreator.com/tutorials/display-region-map-kit-ios7  
-LabelSpriteKitTutorial		| http://ioscreator.com/tutorials/using-labels-sprite-kit  
-iOS7SearchBarTableViewTutorial  | http://ioscreator.com/tutorials/add-seachbar-to-tableview-ios7  
-iOS7DatePickerTutorial		| http://ioscreator.com/tutorials/displaying-date-with-date-picker-ios7  
-iOS7SharingAirdropTutorial	| http://ioscreator.com/tutorials/sharing-airdrop-ios7  
-iOS7SegmentedControlTutorial    | http://ioscreator.com/tutorials/create-segmented-control-ios7  
-iOS7HeaderFooterTutorial	| http://ioscreator.com/tutorials/customizing-headers-footers-table-view-ios7  
-iOS7SnapUIKitDynamicsTutorial	| http://ioscreator.com/tutorials/add-snap-behaviour-view-ios7  
-iOS7LocalNotificationTutorial	| http://ioscreator.com/tutorials/local-notifications-ios7  
-FollowPathSpriteKitTutorial 	| http://ioscreator.com/tutorials/moving-sprites-path-sprite-kit  
-iOS7UISwitchTutorial		| http://ioscreator.com/tutorials/ios-7-controls-uiswitch-tutorial  
-iOS7CustomCollectionViewCellTutorial	| http://ioscreator.com/tutorials/creating-custom-collection-view-cells-in-ios7  
-iOS7StretchableImageTutorial	| http://ioscreator.com/tutorials/stretchable-images-ios7-tutorial  
-ScrollingSpriteKitTutorial	| http://ioscreator.com/tutorials/scrolling-in-sprite-kit-tutorial  
-iOS7UISliderTutorial		| http://ioscreator.com/tutorials/change-values-with-uislider-in-ios7  
-iOS7NavigationControllerTutorial | http://ioscreator.com/tutorials/navigate-with-uinavigationcontroller-in-ios7  
-iOS8SwiftTableViewTurorial	| http://ioscreator.com/tutorials/tableview-tutorial-in-ios8-with-swift  
-iOS8SwiftAlertViewTutorial 	| http://ioscreator.com/tutorials/display-an-alert-view-in-ios8-with-swift  
-iOS8SwiftCalculatorTutorial   	| http://ioscreator.com/tutorials/calculator-tutorial-in-ios8-with-swift  
-iOS8SwiftWebViewTutorial	| http://ioscreator.com/tutorials/webview-tutorial-in-ios8-with-swift  
-SpriteKitSwiftBackgroundTutorial | http://ioscreator.com/tutorials/display-background-with-sprite-kit-and-swift  
-iOS8SwiftUISwitchTutorial	| http://ioscreator.com/tutorials/uiswitch-tutorial-in-ios8-with-swift  
-SpriteKitSwiftSpriteActionsTutorial | http://ioscreator.com/tutorials/move-sprites-with-sprite-kit-and-swift  
-IOS8SwiftDraggingViewsTutorial  | http://ioscreator.com/tutorials/dragging-views-gestures-tutorial-ios8-swift  
-IOS8SwiftProgressViewTutorial	| http//ioscreator.com/tutorials/progress-view-tutorial-in-ios8-with-swift  
-IOS8SwiftScalingViewsTutorial	| http://ioscreator.com/tutorials/scale-image-pinch-gesture-ios8-swift  
-IOS8SwiftPrototypeCellsTutorial	| http://ioscreator.com/tutorials/prototype-cells-tableview-tutorial-ios8-swift  
-IOS8SwiftDatePickerTutorial 	| http://ioscreator.com/tutorials/display-date-date-picker-ios8-swift  
-IOS8SwiftSegmentedControlTutorial | http://ioscreator.com/tutorials/segmented-control-tutorial-ios8-swift  
-IOS8SwiftMapKitTutorial		| http://ioscreator.com/tutorials/mapkit-tutorial-swift-ios8  
-IOS8SwiftUIStepperTutorial	| http://ioscreator.com/tutorials/uistepper-tutorial-ios8-swift  
-IOS8SwiftActivityIndicatorTutorial | http://ioscreator.com/tutorials/activity-indicator-tutorial-ios8-swift  
-IOS8SwiftSliderTutorial		| http://ioscreator.com/tutorials/uislider-tutorial-ios8-swift  
-IOS8SwiftTwitterTutorial	| http://ioscreator.com/tutorials/twitter-tutorial-in-ios8-with-swift  
-IOS8SwiftShadowButtonTutorial	| http://ioscreator.com/tutorials/add-shadow-button-ios8-swift  
-IOS8SwiftPostFacebookTutorial	| http://ioscreator.com/tutorials/facebook-tutorial-ios8-swift  
-IOS8SwiftRotatingImageTutorial	| http://ioscreator.com/tutorials/rotating-image-tutorial-ios8-swift   
-IOS8SwiftJSONTutorial		| http://ioscreator.com/tutorials/json-parsing-tutorial-ios8-swift  
-IOS8SwiftAnimatingViewTutorial	| http://ioscreator.com/tutorials/animating-views-auto-layout-ios8-swift    
-IOS8SwiftDeleteTableViewTutorial | http://ioscreator.com/tutorials/delete-rows-table-view-ios8-swift  
-IOS8SwiftDrawingCirclesTutorial | http://ioscreator.com/tutorials/drawing-circles-uitouch-ios8-swift  
-IOS8SwiftPickerViewTutorial	| http://ioscreator.com/tutorials/picker-view-tutorial-ios8-swift  
-IOS8SwiftActionSheetTutorial	| http://ioscreator.com/tutorials/action-sheet-tutorial-ios8-swift  
-IOS8SwiftShakeGestureTutorial	| http://ioscreator.com/tutorials/detect-shake-gesture-ios8-swift  
-IOS8SwiftAddRowsTableViewTutorial | http://ioscreator.com/tutorials/add-rows-table-view-tutorial-ios8-swift  
-IOS8SwiftVolumeTutorial		| http://ioscreator.com/tutorials/volume-view-tutorial-ios8-swift  
-IOS8SwiftScrollViewPagingTutorial | http://ioscreator.com/tutorials/scroll-view-paging-tutorial-ios8-swift  
-IOS8SwiftCustomizeTableViewTutorial | http://ioscreator.com/tutorials/customizing-table-view-tutorial-ios8-swift  
-IOS8SwiftGradientsCoreGraphicsTutorial | http://ioscreator.com/tutorials/draw-gradients-core-graphics-ios8-swift  
-IOS8SwiftCollectionViewControllerTutorial | http://ioscreator.com/tutorials/collection-view-controller-tutorial-ios8-swift  
-IOS8SwiftBlurEffectTutorial	| http://ioscreator.com/tutorials/add-blur-effect-ios8-swift  
-IOS8SwiftSnapBehaviourTutorial  | http://ioscreator.com/tutorials/add-snap-behaviour-tutorial-ios8-swift  
-SpriteKitSwiftLabelTutorial	| http://ioscreator.com/tutorials/using-labels-spritekit-swift  
-IOS8SwiftHideOnTapTutorial	| http://ioscreator.com/tutorials/hide-navigation-bar-on-tap-ios8-swift  
-IOS8SwiftActionTableViewTutorial | http://ioscreator.com/tutorials/swipe-table-view-cell-custom-actions-tutorial-ios8-swift  
-WatchKitLabelTutorial		| http://ioscreator.com/tutorials/display-label-tutorial-watchkit  
-IOS8SwiftSwipeGestureTutorial	| http://ioscreator.com/tutorials/detecting-swipe-gesture-tutorial-ios8-swift  
-IOS8SwiftPasteBinTutorial	| http://ioscreator.com/tutorials/pasteboard-tutorial-ios8-swift  
-IOS8SwiftSendSMSTutorial	| http://ioscreator.com/tutorials/send-sms-messages-tutorial-ios8-swift  
-IOS8SwiftPullToRefreshTutorial	| http://ioscreator.com/tutorials/add-pull-to-refresh-table-view-ios8-swift  
-WatchKitPositioningTutorial	| http://ioscreator.com/tutorials/positioning-tutorial-watchkit  
-IOS8SwiftSpringAnimationTutorial | http://ioscreator.com/tutorials/spring-animation-tutorial-ios8-swift  
-IOS8SwiftActivityViewControllerTutorial	| http://ioscreator.com/tutorials/activity-view-controller-tutorial-ios8-swift  
-IOS8SwiftCustomizeNavBarTutorial | http://ioscreator.com/tutorials/customizing-navigation-bar-ios8-swift  
-IOS8SwiftTouchIDTutorial	| http://ioscreator.com/tutorials/touch-id-tutorial-ios8-swift  
-IOS8SwiftActivityIndicatorStatusBarTutorial | http://ioscreator.com/tutorials/display-activity-indicator-status-bar-ios8-swift  
-IOS8SwiftLongPressGesturesTutorial | http://ioscreator.com/tutorials/detecting-long-press-gestures-tutorial-ios8-swift
-IOS8SwiftAttributedStringsTutorial | http://ioscreator.com/tutorials/attributed-strings-tutorial-ios8-swift  
-IOS8SWiftHeaderFooterTutorial 	| http://ioscreator.com/tutorials/customizing-header-footer-table-view-ios8-swift
-SpriteKitSwiftAccelerometerTutorial | http://ioscreator.com/tutorials/move-sprites-accelerometer-spritekit-swift  
-IOS8SwiftEmailTutorial		| http://ioscreator.com/tutorials/send-email-tutorial-ios8-swift  
-IOS8SwiftTodayExtensionTutorial | http://ioscreator.com/tutorials/today-extensions-tutorial-ios8-swift  
-IOS8SwiftCustomFontsTutorial	| http://ioscreator.com/tutorials/custom-fonts-interface-builder-tutorial-ios8-swift  
-IOS8SwiftCustomCollectionViewCellsTutorial | http://ioscreator.com/tutorials/custom-collection-view-cell-tutorial-ios8-swift  
-IOS8SwiftAttachBehaviourTutorial | http://ioscreator.com/tutorials/uikit-dynamics-attachment-behaviour-tutorial-ios8-swift  
-IOS8SwiftSceneKitTutorial	| http://ioscreator.com/tutorials/scene-kit-primitives-tutorial-swift  
-IOS8SwiftReorderingRowsTutorial	| http://ioscreator.com/tutorials/reordering-rows-table-view-ios8-swift  
-IOS8SwiftAirprintTutorial	| http://ioscreator.com/tutorials/airprint-tutorial-ios8-swift  
-IOS8SwiftCollisionDetectionTutorial | http://ioscreator.com/tutorials/uikit-dynamics-collision-detection-ios8-swift  
-IOS8SwiftDynamicTypesTutorial	| http://ioscreator.com/tutorials/dynamic-types-tutorial-ios8-swift  
-IOS8SwiftScreenEdgePanGesturesTutorial | http://ioscreator.com/tutorials/screen-edge-pan-gesture-tutorial-ios8-swift  
-IOS8SwiftAddEventTutorial	| http://ioscreator.com/tutorials/add-event-calendar-tutorial-ios8-swift  
-IOS8SwiftTakePhotoTutorial	| http://ioscreator.com/tutorials/take-photo-tutorial-ios8-swift  
-IOS8SwiftScrollViewTutorial	| http://ioscreator.com/tutorials/scroll-view-tutorial-ios8-swift  
-SpriteKitSwiftScenesTutorial	| http://ioscreator.com/tutorials/scenes-tutorial-spritekit-swift  
-IOS8SwiftLocalNotificationTutorial | http://ioscreator.com/tutorials/local-notification-tutorial-ios8-swift  
-IOS8SwiftMoveViewKeyboardTutorial | http://ioscreator.com/tutorials/move-view-behind-keyboard-ios8-swift  
-IOS8SwiftAddSearchTableViewTutorial | http://ioscreator.com/tutorials/add-search-table-view-tutorial-ios8-swift  
-SpriteKitSwiftFollowPathTutorial | http://ioscreator.com/tutorials/move-sprite-along-path-spritekit-swift  
-IOS8SwiftNSUserDefaultsTutorial | http://ioscreator.com/tutorials/use-settings-nsuserdefaults-ios8-swift  
-IOS8SwiftFileManagementTutorial | http://ioscreator.com/tutorials/file-management-tutorial-ios8-swift  
-IOS8SwiftLiveRenderingTutorial  | http://ioscreator.com/tutorials/live-rendering-tutorial-ios-8-swift  
-IOS8SwiftCoreImageTutorial	| http://ioscreator.com/tutorials/core-image-tutorial-ios8-swift  
-IOS8SwiftSearchMapTutorial	| http://ioscreator.com/tutorials/searching-map-view-ios8-swift  
-IOS8SwiftPropertyListTutorial	| http://ioscreator.com/tutorials/load-data-property-list-ios8-swift  
-IOS8SwiftIndexedTableViewTutorial | http://ioscreator.com/tutorials/indexed-table-view-tutorial-ios8-swift  
-IOS8SwiftAirdropTutorial	| http://ioscreator.com/tutorials/airdrop-tutorial-ios8-swift  
-SpriteKitSwiftParticleTutorial  | http://ioscreator.com/tutorials/particle-emitter-tutorial-sprite-kit-swift  
-IOS8SwiftPlayMusicAVAudioPlayerTutorial | http://ioscreator.com/tutorials/play-music-avaudioplayer-ios8-swift
-IOS8SwiftCocoapodsTutorial	| http://ioscreator.com/tutorials/cocoapods-tutorial-ios8-swift  
-IOS8SwiftTakeVideoTutorial	| http://ioscreator.com/tutorials/take-video-tutorial-ios8-swift  
-IOS8SwiftTabBarControllerTutorial | http://ioscreator.com/tutorials/tab-bar-controller-tutorial-ios8-swift  
-IOS9ContextMenuTableViewTutorial | http://ioscreator.com/tutorials/use-context-menu-table-view-tutorial  
-IOS9DrawShapesTutorial		| http://ioscreator.com/tutorials/drawing-shapes-core-graphics-tutorial  
-IOS9SafariViewControllerTutorial | http://ioscreator.com/tutorials/safari-view-controller-tutorial  
-IOS9StackViewTutorial		| http://ioscreator.com/tutorials/stack-view-tutorial  
-IOS9ReorderingCollectionViewTutorial | http://ioscreator.com/tutorials/reordering-collection-view-cells-tutorial  
-IOS9CoreSpotlightTutorial	| http://ioscreator.com/tutorials/index-app-content-core-spotlight-tutorial  
-IOS9DisableATSTutorial		| http://ioscreator.com/tutorials/disable-apple-transport-security-tutorial  
-SpriteKitPhysicsTutorial	| http://ioscreator.com/tutorials/sprite-kit-physics-tutorial  
-IOS9OpenPDFTutorial		| http://ioscreator.com/tutorials/open-pdf-tutorial  
-IOS9VibrationTutorial		| http://ioscreator.com/tutorials/play-vibration-tutorial  
-IOS9TextFieldAlertControllerTutorial | http://ioscreator.com/tutorials/editable-text-field-alert-controller-tutorial  
-IOS9SpellingCheckerTutorial	| http://ioscreator.com/tutorials/spelling-checker-tutorial  
-IOS9MultipleOutletsTutorial	| http://ioscreator.com/tutorials/multiple-outlets-tutorial  
-IOS9DrawRouteMapKitTutorial	| http://ioscreator.com/tutorials/draw-route-mapkit-tutorial  
-IOS9PersistentPropertytutorial  | http://ioscreator.com/tutorials/persistent-data-property-list-tutorial  
-IOS9ChangeDisplayNameTutorial   | http://ioscreator.com/tutorials/change-display-name-tutorial 
-IOS9XMLParserTutorial		| http://ioscreator.com/tutorials/parsing-xml-tutorial  
-
 ===========================================================================================================
 
+### iOS13
+
+
+- [SwiftUICustomShapeTutorial](https://ioscreator.com/tutorials/swiftui-custom-shape-tutorial)    
+- [SwiftUIDeleteMultipleRowsListTutorial](https://ioscreator.com/tutorials/swiftui-delete-multiple-rows-list-tutorial)  
+- [SwiftUIJSONListTutorial](https://ioscreator.com/tutorials/swiftui-json-list-tutorial)  
+- [IOSSendMailTutorial](https://ioscreator.com/tutorials/send-mail-ios-tutorial)         
+- [IOSDrawCirclesTutorial](https://ioscreator.com/tutorials/draw-circles-ios-tutorial)         
+- [IOSAnimateAutoLayoutTutorial](https://ioscreator.com/tutorials/animate-view-auto-layout-ios-tutorial)         
+- [IOSAddRowsTableViewTutorial](https://ioscreator.com/tutorials/add-rows-table-view-ios-tutorial)       
+- [IOSActivityIndicatorTutorial](https://ioscreator.com/tutorials/activity-indicator-ios-tutorial)       
+- [IOSActionSheetTutorial](https://ioscreator.com/tutorials/action-sheet-ios-tutorial)       
+- [IOSPageControlTutorial](https://ioscreator.com/tutorials/page-control-ios-tutorial)       
+- [IOSSpriteKitParallaxScrollingTutorial](https://ioscreator.com/tutorials/parallax-scrolling-spritekit-tutorial)       
+- [IOSFetchContactsTutorial](https://ioscreator.com/tutorials/fetch-contacts-ios-tutorial)       
+- [IOSSplitViewControllerTutorial](https://ioscreator.com/tutorials/ios-split-view-controller-tutorial)     
+- [SwiftUICircularProgressBarTutorial](https://ioscreator.com/tutorials/swiftui-circular-progress-bar-tutorial)     
+- [SwiftUIContextMenuTutorial](https://ioscreator.com/tutorials/swiftui-context-menu-tutorial)     
+- [SwiftUIDividerTutorial](https://ioscreator.com/tutorials/swiftui-divider-tutorial)     
+- [SwiftUICalculatorTutorial](https://ioscreator.com/tutorials/swiftui-calculator-tutorial)     
+- [SwiftUILongPressGestureTutorial](https://ioscreator.com/tutorials/swiftui-long-press-gesture-tutorial)     
+- [SwiftUIScrollViewTutorial](https://ioscreator.com/tutorials/swiftui-scroll-view-tutorial)     
+- [SwiftUIAddRowsListTutorial](https://ioscreator.com/tutorials/swiftui-add-rows-list-tutorial)     
+- [IOSLayoutAnchorsTutorial](https://ioscreator.com/tutorials/layout-anchors-ios-tutorial)     
+- [SwiftUIGeometryReaderTutorial](https://ioscreator.com/tutorials/swiftui-geometryreader-tutorial)     
+- [SwiftUIDeleteRowsListTutorial](https://ioscreator.com/tutorials/swiftui-delete-rows-list-tutorial)     
+- [SwiftUISpacerTutorial](https://ioscreator.com/tutorials/swiftui-spacer-tutorial)     
+- [SwiftUIOverlayViewsTutorial](https://ioscreator.com/tutorials/swiftui-overlay-views-tutorial)     
+- [SwiftUIHeaderFooterListTutorial](https://ioscreator.com/tutorials/swiftui-header-footer-list-tutorial)     
+- [SwiftUISpringAnimationTutorial](https://ioscreator.com/tutorials/swiftui-spring-animation-tutorial)     
+- [SwiftUIMapKitTutorial](https://ioscreator.com/tutorials/swiftui-mapkit-tutorial)     
+- [SwiftUIMoveRowsListTutorial](https://ioscreator.com/tutorials/move-rows-list-tutorial)     
+- [SwiftUICustomizeNavBarTutorial](https://ioscreator.com/tutorials/customize-navigation-bar-tutorial)     
+- [SwiftUIRotateGestureTutorial](https://ioscreator.com/tutorials/swiftui-rotation-gesture-tutorial)     
+- [SwiftUIDrawGradientTutorial](https://ioscreator.com/tutorials/swiftui-draw-gradient-tutorial)     
+- [SwiftUIAnimationTutorial](https://ioscreator.com/tutorials/swiftui-animation-tutorial)     
+- [SwiftUIMagnificationGestureTutorial](https://ioscreator.com/tutorials/swiftui-magnification-gesture-tutorial)     
+- [SwiftUISecureTextFieldTutorial](https://ioscreator.com/tutorials/swiftui-secure-textfield-tutorial)     
+- [SwiftUIDarkModePreviewTutorial](https://ioscreator.com/tutorials/swiftui-dark-mode-preview-tutorial)     
+- [SwiftUIDatePickerTutorial](https://ioscreator.com/tutorials/swiftui-date-picker-tutorial)     
+- [SwiftUIModalTutorial](https://ioscreator.com/tutorials/swiftui-modal-tutorial)     
+- [SwiftUIFormsTutorial](https://ioscreator.com/tutorials/swiftui-forms-tutorial)     
+- [SwiftUIDragGestureTutorial](https://ioscreator.com/tutorials/swiftui-drag-gesture-tutorial)     
+- [SwiftUIPreviewDevicesTutorial](https://ioscreator.com/tutorials/swiftui-preview-multiple-devices-tutorial)     
+- [SwiftUIEnvironmentObjectTutorial](https://ioscreator.com/tutorials/swiftui-environment-object-tutorial)     
+- [SwiftUITabViewTutorial](https://ioscreator.com/tutorials/swiftui-tab-view-tutorial)     
+- [SwiftUIObservableObjectTutorial](https://ioscreator.com/tutorials/swiftui-observable-object-tutorial)     
+- [SwiftUICircularImageTutorial](https://ioscreator.com/tutorials/swiftui-circular-image-tutorial)     
+- [SwiftUIBackgroundColorTutorial](https://ioscreator.com/tutorials/swiftui-background-color-tutorial)     
+- [SwiftUIBasicShapesTutorial](https://ioscreator.com/tutorials/swiftui-basic-shapes-tutorial)     
+- [SwiftUIButtonTutorial](https://ioscreator.com/tutorials/swiftui-button-tutorial)     
+- [SwiftUIScaleImageTutorial](https://ioscreator.com/tutorials/swiftui-scale-image-tutorial)     
+- [SwiftUITextFieldTutorial](https://ioscreator.com/tutorials/swiftui-textfield-tutorial)     
+- [SwiftUIRotateViewTutorial](https://ioscreator.com/tutorials/swiftui-rotate-view-tutorial)     
+- [SwiftUIShadowTutorial](https://ioscreator.com/tutorials/swiftui-shadow-tutorial)     
+- [SwiftUIGestureTutorial](https://ioscreator.com/tutorials/swiftui-gesture-tutorial)     
+- [SwiftUIStepperTutorial](https://ioscreator.com/tutorials/swiftui-stepper-tutorial)     
+- [SwiftUIActionSheetTutorial](https://ioscreator.com/tutorials/swiftui-action-sheet-tutorial)     
+- [SwiftUISliderTutorial](https://ioscreator.com/tutorials/swiftui-slider-tutorial)     
+- [SwiftUIPickerTutorial](https://ioscreator.com/tutorials/swiftui-picker-tutorial)     
+- [SwiftUISegmentedControlTutorial](https://ioscreator.com/tutorials/swiftui-segmented-control-tutorial)     
+- [SwiftUIIntegrateUIKitTutorial](https://ioscreator.com/tutorials/swiftui-integrate-uikit-tutorial)     
+- [SwiftUIAlertTutorial](https://ioscreator.com/tutorials/swiftui-alert-tutorial)   
+- [SwiftUIStateTutorial](https://ioscreator.com/tutorials/swiftui-state-tutorial)   
+- [SwiftUIListTutorial](https://ioscreator.com/tutorials/swiftui-list-tutorial)   
+- [SwiftUITextViewTutorial](https://ioscreator.com/tutorials/swiftui-text-view-tutorial)   
+- [SwiftUIStackTutorial](https://ioscreator.com/tutorials/swiftui-stack-tutorial)   
+- [SwiftUIGettingStartedTutorial](https://ioscreator.com/tutorials/swiftui-getting-started-tutorial)             
+
+### iOS12
+
+- [IOSNavigationControllerTutorial](https://ioscreator.com/tutorials/navigation-controller-ios-tutorial)           
+- [IOSMultipeerConnectivityTutorial](https://ioscreator.com/tutorials/multipeer-connectivity-ios-tutorial)           
+- [IOSSpellingCheckerTutorial](https://ioscreator.com/tutorials/spell-checker-ios-tutorial)           
+- [IOSBackgroundFetchTutorial](https://ioscreator.com/tutorials/background-fetch-ios-tutorial)           
+- [IOSCircularImageTutorial](https://ioscreator.com/tutorials/circular-image-view-ios-tutorial)           
+- [IOSPopoverTutorial](https://ioscreator.com/tutorials/display-popover-ios-tutorial)           
+- [IOSDeleteItemsCollectionViewTutorial](https://ioscreator.com/tutorials/delete-item-collection-view-controller-ios-tutorial)         
+- [IOSFlyOverMapKitTutorial](https://ioscreator.com/tutorials/mapkit-flyover-ios-tutorial)        
+- [IOSVolumeViewTutorial](https://ioscreator.com/tutorials/volume-view-ios-tutorial)      
+- [IOSActivityViewControllerTutorial](https://ioscreator.com/tutorials/activity-view-controller-ios-tutorial)      
+- [IOSSwipeGestureTutorial](https://ioscreator.com/tutorials/swipe-gesture-ios-tutorial)     
+- [IOSWebViewTutorial](https://ioscreator.com/tutorials/webview-ios-tutorial)    
+- [IOSAttachmentBehaviourTutorial](https://ioscreator.com/tutorials/uikit-dynamics-attachment-behaviour-ios-tutorial)    
+- [IOSAddItemsCollectionViewTutorial](https://ioscreator.com/tutorials/add-item-collection-view-controller-ios-tutorial)    
+- [IOSParticleEmitterTutorial](https://ioscreator.com/tutorials/particle-emitter-ios-tutorial)    
+- [IOSProgressViewTutorial](https://ioscreator.com/tutorials/progress-view-ios-tutorial)    
+- [IOSPassDataViewControllerTutorial](https://ioscreator.com/tutorials/pass-data-view-controller-ios-tutorial)    
+- [IOSMapKitTutorial](https://ioscreator.com/tutorials/mapkit-ios-tutorial)    
+- [IOSAirPrintTutorial](https://ioscreator.com/tutorials/airprint-ios-tutorial)    
+- [IOSSwitchTutorial](https://ioscreator.com/tutorials/switch-ios-tutorial)    
+- [IOSDynamicTypesTutorial](https://ioscreator.com/tutorials/dynamic-types-ios-tutorial)    
+- [IOSCollectionViewControllerTutorial](https://ioscreator.com/tutorials/collection-view-controller-ios-tutorial)    
+- [IOSSliderTutorial](https://ioscreator.com/tutorials/slider-ios-tutorial)    
+- [IOSTouchIDTutorial](https://ioscreator.com/tutorials/touch-id-ios-tutorial)    
+- [IOSSpringAnimationTutorial](https://ioscreator.com/tutorials/spring-animation-ios-tutorial)    
+- [IOSLongPressGestureTutorial](https://ioscreator.com/tutorials/long-press-gesture-ios-tutorial)    
+- [IOSPullToRefreshTutorial](https://ioscreator.com/tutorials/pull-to-refresh-ios-tutorial)    
+- [IOSActionsTableViewTutorial](https://ioscreator.com/tutorials/swipe-table-view-cell-custom-actions-ios-tutorial)    
+- [IOSSnapBehaviourTutorial](https://ioscreator.com/tutorials/snap-behaviour-ios-tutorial)  
+- [IOSBlurEffectTutorial](https://ioscreator.com/tutorials/blur-effect-ios-tutorial)  
+- [IOSRotateImageTutorial](https://ioscreator.com/tutorials/rotate-image-ios-tutorial)  
+- [IOSSpriteKitActionsTutorial](https://ioscreator.com/tutorials/sprite-movement-actions-ios-tutorial)  
+- [IOSPickerTutorial](https://ioscreator.com/tutorials/picker-ios-tutorial)  
+- [IOSCollectionDetectionTutorial](https://ioscreator.com/tutorials/collision-detection-uikit-dynamics-ios-tutorial)  
+- [IOSShakeGestureTutorial](https://ioscreator.com/tutorials/shake-gesture-ios-tutorial)  
+- [IOSAttributedStringsTutorial](https://ioscreator.com/tutorials/attributed-strings-ios-tutorial)  
+- [IOSDragViewsGesturesTutorial](https://ioscreator.com/tutorials/customize-navigation-bar-ios-tutorial)  
+- [IOSDragViewsGesturesTutorial](https://ioscreator.com/tutorials/drag-views-gestures-ios-tutorial)  
+- [IOSScaleImageTutorial](https://ioscreator.com/tutorials/scale-images-pinch-gesture-ios-tutorial)              
+- [IOSDatePickerTutorial](https://ioscreator.com/tutorials/display-date-date-picker-ios-tutorial)              
+- [IOSFadeMusicTutorial](https://ioscreator.com/tutorials/fade-in-fade-out-ios-tutorial)              
+- [IOSPrototypeCellsTutorial](https://ioscreator.com/tutorials/prototype-cells-table-view-ios-tutorial)              
+- [IOSShadowButtonTutorial](https://ioscreator.com/tutorials/add-shadow-button-ios-tutorial)              
+- [IOSStepperTutorial](https://ioscreator.com/tutorials/stepper-ios-tutorial)              
+- [IOSLocalNotificationTutorial](https://ioscreator.com/tutorials/local-notification-ios-tutorial)              
+- [IOSSpriteKitBackgroundTutorial](https://ioscreator.com/tutorials/display-background-spritekit-ios-tutorial)              
+- [IOSContextMenuTableViewTutorial](https://ioscreator.com/tutorials/context-menu-table-view-ios-tutorial)            
+- [IOSDisplayAlertTutorial](https://ioscreator.com/tutorials/display-alert-ios-tutorial)            
+- [IOSTabBarCustomizationTutorial](https://ioscreator.com/tutorials/tab-bar-customization-ios-tutorial)            
+- [IOSRequestPermissionTutorial](https://ioscreator.com/tutorials/request-permission-core-location-ios-tutorial)            
+- [IOSMultipleOutletsTutorial](https://ioscreator.com/tutorials/multiple-outlets-ios-tutorial)            
+- [IOSChangeDisplayNameTutorial](https://ioscreator.com/tutorials/change-display-name-ios-tutorial)            
+- [IOSParseXMLTutorial](https://ioscreator.com/tutorials/parse-xml-ios-tutorial)          
+- [IOSSegmentedControllerTutorial](https://ioscreator.com/tutorials/segmented-controller-ios-tutorial)        
+- [IOSColorStatusBarTutorial](https://ioscreator.com/tutorials/change-color-status-bar-ios-tutorial)        
+- [IOSSpriteKitPhysicsTutorial](https://ioscreator.com/tutorials/sprite-kit-physics-ios-tutorial)        
+- [IOSTextFieldAlertControllerTutorial](https://ioscreator.com/tutorials/editable-text-field-alert-controller-ios-tutorial)      
+- [IOSVibrationTutorial](https://ioscreator.com/tutorials/play-vibration-ios-tutorial)      
+- [IOSOpenPDFTutorial](https://ioscreator.com/tutorials/open-pdf-ios-tutorial)      
+- [IOSDisableATSTutorial](https://ioscreator.com/tutorials/disable-apple-transport-security-ios-tutorial)    
+- [IOSReorderCollectionViewTutorial](https://ioscreator.com/tutorials/reorder-collection-view-ios-tutorial)  
+- [IOSDrawShapesTutorial](https://ioscreator.com/tutorials/draw-shapes-core-graphics-ios-tutorial)  
+- [IOSSafariViewControllerTutorial](https://ioscreator.com/tutorials/safari-view-controller-ios-tutorial)  
+- [IOSTakePhotoTutorial](https://ioscreator.com/tutorials/take-photo-ios-tutorial)  
+- [IOSMoveSpritesAccelerometerTutorial](https://ioscreator.com/tutorials/move-sprites-accelerometer-ios-tutorial)
+- [IOSCustomizingTableViewTutorial](https://ioscreator.com/tutorials/customizing-table-view-ios-tutorial)  
+- [IOSJSONTutorial](https://ioscreator.com/tutorials/json-ios-tutorial)    
+- [IOSScrollViewPagingTutorial](https://ioscreator.com/tutorials/scroll-view-paging-ios-tutorial)  
+- [IOSAddSearchTableViewTutorial](https://ioscreator.com/tutorials/add-search-table-view-ios-tutorial)  
+- [IOSPasteBoardTutorial](https://ioscreator.com/tutorials/pasteboard-ios-tutorial)  
+- [IOSCustomFontTutorial](https://ioscreator.com/tutorials/custom-font-ios-tutorial)  
+- [IOSScreenEdgePanGestureTutorial](https://ioscreator.com/tutorials/screen-edge-pan-gesture-ios-tutorial)  
+- [IOSLiveRenderingTutorial](https://ioscreator.com/tutorials/live-rendering-ios-tutorial)  
+- [IOSDataLoadPropertyListTutorial](https://ioscreator.com/tutorials/load-data-property-list-ios-tutorial)  
+- [IOSPlayMusicAVAudioPlayTutorial](https://ioscreator.com/tutorials/play-music-avaudioplayer-ios-tutorial)  
+- [IOSCustomCollectionViewCellTutorial](https://ioscreator.com/tutorials/custom-collection-view-cell-ios-tutorial)  
+- [IOSCocoapodsTutorial](https://ioscreator.com/tutorials/cocoapods-ios-tutorial)  
+- [IOSMoveViewKeyboardTutorial](https://ioscreator.com/tutorials/move-view-keyboard-ios-tutorial)  
+- [IOSSpriteKitMoveSpritePathTutorial](https://ioscreator.com/tutorials/spritekit-move-sprite-path-ios-tutorial)  
+- [IOSAddEventTutorial](https://ioscreator.com/tutorials/add-event-calendar-ios-tutorial)  
+- [IOSAirdropTutorial](https://ioscreator.com/tutorials/airdrop-ios-tutorial)  
+- [IOSUserDefaultsTutorial](https://ioscreator.com/tutorials/user-defaults-ios-tutorial)  
+- [IOS12DeleteMultipleRowsTutorial](https://ioscreator.com/tutorials/delete-multiple-rows-table-view-ios-tutorial)  
+- [IOS12TakeVideoTutorial](https://ioscreator.com/tutorials/take-video-ios-tutorial)  
+- [IOS12SendiMessageTutorial](https://ioscreator.com/tutorials/send-imessage-ios-tutorial)  
+- [IOS12ReorderRowsTutorial](https://ioscreator.com/tutorials/reorder-rows-table-view-ios-tutorial-ios12)  
+- [IOS12ActivityStatusBarTutorial](https://ioscreator.com/tutorials/activity-indicator-statusbar-ios-tutorial-ios12)  
+- [IOS12SpriteKitScenesTutroial](https://ioscreator.com/tutorials/spritekit-scenes-ios-tutorial-ios12)  
+- [IOS12DeleteTableViewTutorial](https://ioscreator.com/tutorials/delete-rows-table-view-ios-tutorial-ios12)  
+- [IOS12CoreImageTutorial](https://ioscreator.com/tutorials/core-image-ios-tutorial-ios12)  
+- [IOS12TabBarControllerTutorial](https://ioscreator.com/tutorials/tab-bar-controller-ios-tutorial-ios12)  
+- [IOS12ScrollViewTutorial](https://ioscreatpr.com/tutorials/scroll-view-ios-tutorial-ios12)  
+- [IOS12SpriteKitLabelsTutorial](https://ioscreator.com/tutorials/spritekit-labels-ios-tutorial-ios12)  
+- [IOS12SearchMapKitTutorial](https://ioscreator.com/tutorials/search-map-kit-ios-tutorial-ios12)  
+- [IOS12HideNavBarTutorial](https://ioscreator.com/tutorials/hide-navigation-bar-ios-tutorial-ios12)  
+- [IOS12SceneKitTutorial](https://ioscreator.com/tutorials/primitives-scene-kit-ios-tutorial-ios12)  
+
+### iOS11
+
+- [IOS11TodayExtensionTutorial](https://ioscreator.com/tutorials/today-extension-ios-tutorial-ios11)  
+- [IOS11IndexedTableViewTutorial](https://ioscreator.com/tutorials/indexed-table-view-ios-tutorial-ios11)  
+
+
+### iOS10
+
+- [IOS10FacebookTutorial](https://ioscreator.com/tutorials/facebook-ios-tutorial-ios10)  
+- [IOS10TwitterTutorial](https://ioscreator.com/tutorials/twitter-ios-tutorial-ios10)  
+- [IOS10StopWatchTutorial](https://ioscreator.com/tutorials/stopwatch-tutorial)  
+- [IOS10DrawGradientsTutorial](https://ioscreator.com/tutorials/draw-gradients-core-graphics-tutorial-ios10)  
+
+### iOS9
+  
+- [IOS9PersistentPropertytutorial](https://ioscreator.com/tutorials/persistent-data-property-list-tutorial)    
+- [IOS9DrawRouteMapKitTutorial](https://ioscreator.com/tutorials/draw-route-mapkit-tutorial)  
+- [IOS9CoreSpotlightTutorial](https://ioscreator.com/tutorials/index-app-content-core-spotlight-tutorial)    
+- [IOS9StackViewTutorial](https://ioscreator.com/tutorials/stack-view-tutorial)   
+
+### iOS8
+ 
+- [IOS8SwiftFileManagementTutorial](https://ioscreator.com/tutorials/file-management-tutorial-ios8-swift)    
+- [IOS8SWiftHeaderFooterTutorial](https://ioscreator.com/tutorials/customizing-header-footer-table-view-ios8-swift)  
+- [WatchKitPositioningTutorial](https://ioscreator.com/tutorials/positioning-tutorial-watchkit)  
+- [WatchKitLabelTutorial](https://ioscreator.com/tutorials/display-label-tutorial-watchkit)  
+- [iOS8SwiftCalculatorTutorial](https://ioscreator.com/tutorials/calculator-tutorial-in-ios8-with-swift)   
+- [iOS8SwiftTableViewTutorial](https://ioscreator.com/tutorials/tableview-tutorial-in-ios8-with-swift)  
+
+### iOS7
+  
+- [iOS7StretchableImageTutorial](https://ioscreator.com/tutorials/stretchable-images-ios7-tutorial)  
+- [iOS7AddressBookTutorial](https://ioscreator.com/tutorials/add-contacts-to-the-address-book-in-ios7)  
+- [iOS7ImageViewTutorial](https://ioscreator.com/tutorials/ios-7-views-image-view)  
+- [iOS7BackgroundFetchTutorial](https://ioscreator.com/tutorials/using-background-fetch-in-ios-7)  
+- [SpriteAnimationTutorial](https://ioscreator.com/tutorials/animating-sprites-with-sprite-kit)  
+- [iOS7AutoLayoutTutorial](https://ioscreator.com/tutorials/using-auto-layout-xcode-5)  
+- [iOS7TintColorTutorial](https://ioscreator.com/tutorials/ios-7-views-setting-tint-color)  
+
+### iOS6
+
+- [CategoryDemo](https://ioscreator.com/tutorials/objective-c-add-a-category)  
+- [CenteringViewsDemo](https://ioscreator.com/tutorials/auto-layout-in-ios-6-centering-views)  
+- [ImageAspectRatioDemo](https://ioscreator.com/tutorials/auto-layout-in-ios-6-keep-aspect-ratio-of-image)  
+- [ScalingViewDemo](https://ioscreator.com/tutorials/scaling-views)  
+- [CoreDataDemo](https://ioscreator.com/tutorials/introduction-to-core-data)  
+- [CustomizingTableviewCell](https://ioscreator.com/tutorials/customize-tableviewcells-with-storyboards)   
+- [AccelerometerDemo](https://ioscreator.com/tutorials/read-values-of-the-accelerometer)    
